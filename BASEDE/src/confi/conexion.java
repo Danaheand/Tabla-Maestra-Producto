@@ -8,7 +8,7 @@ public class conexion {
     Connection con;
     String ur = "jdbc:mysql://localhost/comercial?useSSL=false&serverTimezone=UTC";
     String uss="root";
-    String pas="Jugandotodoeltiempo25";
+    String pas="XXXXXX";
     public Connection Conexion(){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
